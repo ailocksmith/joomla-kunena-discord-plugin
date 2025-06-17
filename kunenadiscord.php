@@ -6,6 +6,9 @@
  * This plugin monitors database insertions specifically for Kunena messages
  * FIXED: Now properly extracts content from kunena_messages_text table
  * Enhanced with configurable colors, footer text, and payload size validation
+ * 
+ * * @copyright  Copyright (C) 2024. All rights reserved.
+ * @license    GNU General Public License version 2 or later; see LICENSE
  */
 defined('_JEXEC') or die;
 
