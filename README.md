@@ -19,13 +19,9 @@ A lightweight Joomla system plugin that automatically posts new Kunena forum mes
 
 ## Installation
 
-1. Download the plugin files
-2. Create a zip file containing:
-   - `kunenadiscord.php`
-   - `kunenadiscord.xml`
-   - `language/en-GB/en-GB.plg_system_kunenadiscord.ini`
-3. Install via Joomla Admin → Extensions → Install
-4. Enable the plugin in Extensions → Plugins
+1. Download the ZIP file from the releases section
+3. Install via Joomla Admin → System -> Install -> Extensions
+4. Enable the plugin in Admin -> Manage  → Plugins
 5. Configure your Discord webhook URL and settings
 
 ## Configuration
@@ -77,7 +73,7 @@ This approach is:
 
 ## Requirements
 
-- Jooml 5.x 
+- Joomla 5.x (not tested on 4.x but should work) 
 - Kunena Forum 6.x 
 - PHP 7.4+
 - Discord server with webhook permissions
@@ -128,7 +124,10 @@ Enable debug mode in plugin settings to see detailed logs:
 
 ## License
 
-This plugin is open source. Feel free to modify and distribute according to your needs.
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; either version 2 of the License, or
+(at your option) any later version.
 
 ## Contributing
 
