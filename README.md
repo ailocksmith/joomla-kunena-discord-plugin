@@ -1,6 +1,7 @@
 # Kunena Discord Webhook Plugin
 
-If this plugin saves you time and makes your forum community more active, please consider supporting my work! ☕
+If this plugin saves you time and makes your forum community more active, please consider supporting my work! 
+Buy me a coffee at Ko-Fi! ☕
 
 [![Ko-Fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/ailocksmith)
 
