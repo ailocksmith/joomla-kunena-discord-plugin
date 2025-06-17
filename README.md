@@ -76,10 +76,12 @@ This approach is:
 
 ## Requirements
 
-- Joomla 3.x or 4.x
-- Kunena Forum component
+- Jooml 5.x 
+- Kunena Forum 6.x 
 - PHP 7.4+
 - Discord server with webhook permissions
+
+May work with other Joomla / Kunena versions. Tested working with Joomla 5.2.3 and Kunena 6.3.8.
 
 ## Discord Message Format
 
