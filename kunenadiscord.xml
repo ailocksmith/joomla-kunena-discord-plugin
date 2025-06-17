@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 <extension type="plugin" group="system" method="upgrade" version="4.0">
     <name>System - Kunena Discord</name>
     <author>Jeoff</author>
     <version>1.0.9</version>
     <description>PLG_SYSTEM_KUNENADISCORD_DESC</description>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
     <files>
         <filename plugin="kunenadiscord">kunenadiscord.php</filename>
     </files>
