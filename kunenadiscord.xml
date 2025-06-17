@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="system" method="upgrade" version="4.0">
+    <name>PLG_SYSTEM_KUNENADISCORD</name>
+    <author>Your Name</author>
+    <version>1.0.9</version>
+    <description>PLG_SYSTEM_KUNENADISCORD_DESC</description>
+    <files>
+        <filename plugin="kunenadiscord">kunenadiscord.php</filename>
+    </files>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_kunenadiscord.ini</language>
+    </languages>
+    <config>
+        <fields name="params">
+            <fieldset name="basic" label="PLG_SYSTEM_KUNENADISCORD_BASIC">
+                <field 
+                    name="webhook" 
+                    type="url" 
+                    label="PLG_SYSTEM_KUNENADISCORD_WEBHOOK_LABEL" 
+                    description="PLG_SYSTEM_KUNENADISCORD_WEBHOOK_DESC"
+                    required="true" 
+                    filter="url"
+                />
+                <field 
+                    name="footer_text" 
+                    type="text" 
+                    label="PLG_SYSTEM_KUNENADISCORD_FOOTER_LABEL" 
+                    description="PLG_SYSTEM_KUNENADISCORD_FOOTER_DESC"
+                    default="Kunena Forum"
+                    size="30"
+                />
+                <field 
+                    name="embed_color" 
+                    type="list" 
+                    label="PLG_SYSTEM_KUNENADISCORD_COLOR_LABEL" 
+                    description="PLG_SYSTEM_KUNENADISCORD_COLOR_DESC"
+                    default="7289DA"
+                >
+                    <option value="7289DA">Discord Blue</option>
+                    <option value="5865F2">Discord Purple</option>
+                    <option value="57F287">Green</option>
+                    <option value="FEE75C">Yellow</option>
+                    <option value="ED4245">Red</option>
+                    <option value="EB459E">Pink</option>
+                    <option value="FF7A00">Orange</option>
+                    <option value="9B59B6">Purple</option>
+                    <option value="E74C3C">Dark Red</option>
+                    <option value="2ECC71">Dark Green</option>
+                    <option value="3498DB">Light Blue</option>
+                    <option value="95A5A6">Gray</option>
+                    <option value="000000">Black</option>
+                    <option value="FFFFFF">White</option>
+                </field>
+                <field 
+                    name="custom_color" 
+                    type="text" 
+                    label="PLG_SYSTEM_KUNENADISCORD_CUSTOM_COLOR_LABEL" 
+                    description="PLG_SYSTEM_KUNENADISCORD_CUSTOM_COLOR_DESC"
+                    size="7"
+                    maxlength="6"
+                    hint="FF5733"
+                />
+                <field 
+                    name="content_limit" 
+                    type="number" 
+                    label="PLG_SYSTEM_KUNENADISCORD_LIMIT_LABEL" 
+                    description="PLG_SYSTEM_KUNENADISCORD_LIMIT_DESC"
+                    default="1500"
+                    min="100"
+                    max="3500"
+                    step="50"
+                />
+                <field 
+                    name="debug" 
+                    type="radio" 
+                    label="Debug Mode"
+                    description="Enable detailed logging for troubleshooting"
+                    default="1"
+                    class="btn-group btn-group-yesno"
+                >
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+            </fieldset>
+        </fields>
+    </config>
+</extension>
